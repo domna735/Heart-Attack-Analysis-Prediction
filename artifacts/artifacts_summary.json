@@ -1,0 +1,67 @@
+{
+  "best_model_name": "LogisticRegression",
+  "feature_names": [
+    "age",
+    "trtbps",
+    "chol",
+    "thalachh",
+    "oldpeak",
+    "sex_0",
+    "sex_1",
+    "cp_0",
+    "cp_1",
+    "cp_2",
+    "cp_3",
+    "fbs_0",
+    "fbs_1",
+    "restecg_0",
+    "restecg_1",
+    "restecg_2",
+    "exng_0",
+    "exng_1",
+    "slp_0",
+    "slp_1",
+    "slp_2",
+    "caa_0",
+    "caa_1",
+    "caa_2",
+    "caa_3",
+    "caa_4",
+    "thall_0",
+    "thall_1",
+    "thall_2",
+    "thall_3"
+  ],
+  "num_features": [
+    "age",
+    "trtbps",
+    "chol",
+    "thalachh",
+    "oldpeak"
+  ],
+  "cat_features": [
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exng",
+    "slp",
+    "caa",
+    "thall"
+  ],
+  "metrics_test": {
+    "model": "LogisticRegression",
+    "acc": 0.8524590163934426,
+    "precision": 0.8529411764705882,
+    "recall": 0.8787878787878788,
+    "f1": 0.8656716417910447,
+    "roc_auc": 0.9036796536796537,
+    "pr_auc": 0.9224311237099141
+  },
+  "opt_threshold": 0.03505797564833617,
+  "cost_based_threshold": 0.45,
+  "cost_weights": {
+    "C_FN": 5.0,
+    "C_FP": 1.0
+  }
+}
